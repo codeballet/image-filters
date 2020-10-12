@@ -1,6 +1,6 @@
-# Images Filters
+# Image Filters
 
-The Images Filters program applies filters to bitmap (.bmp) images.
+The Image Filters program applies filters to bitmap (.bmp) images.
 There are currently five different filters that can be applied:
 
 - Grayscale
@@ -41,6 +41,6 @@ After cloning the repo, compile the program by running the command:
 
 The compiler will create a new, executable file called `filter`.
 
-## Licence
+## License
 
 MIT
