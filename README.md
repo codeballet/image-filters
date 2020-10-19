@@ -9,12 +9,14 @@ There are currently five different filters that can be applied:
 - Reflect - creates a horizontal mirror image
 - Edge Detection - applying a Sobel Operator to the image
 
+The program is written in C, as an assignment for the CS50 course at Harvard.
+
 ## Running the program
 
 The executable file, which is included in the repo, is called `filter`. To filter a bmp image, enter the following command in the directory where you have that `filter` file:
 
 ```
-./filter -<option> <infile> <outfile>
+./filter -option infile outfile
 ```
 
 The available options are:
@@ -35,7 +37,7 @@ Using one of the provided bmp in the `images` folder of the cloned project, an e
 
 The repo contains an already compiled, executable file called `filter`.
 
-However, to compile the program yourself, you need to have the C compiler `clang` installed.
+However, to compile the program yourself, you need to have `make` and the C compiler `clang` installed.
 After cloning the repo, compile the program by running the command:
 `make filter`
 
